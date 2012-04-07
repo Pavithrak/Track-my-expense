@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Track My Expense</string>
+    <string name="view_expense">View all Expense</string>
+    <string name="view_expense_of_month">Expense of a month</string>
+</resources>
