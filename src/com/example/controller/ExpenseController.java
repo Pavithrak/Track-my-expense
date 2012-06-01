@@ -1,8 +1,12 @@
-package com.example;
+package com.example.controller;
 
 import android.content.Context;
 import android.content.Intent;
 import android.database.Cursor;
+import com.example.model.Expense;
+import com.example.repository.ExpenseRepository;
+import com.example.view.ViewExpense;
+import com.example.view.ViewExpensePerMonth;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -23,7 +27,7 @@ public class ExpenseController {
         try {
             spentDate = new SimpleDateFormat("dd-MM-yyyy").parse(date);
         } catch (ParseException e) { }
-        ExpenseModel expense = new ExpenseModel(spentDate, amount, reason);
+        Expense expense = new Expense(spentDate, amount, reason);
         expenseRepository.save(expense);
     }
 

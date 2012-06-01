@@ -1,17 +1,17 @@
-package com.example;
+package com.example.model;
 
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
-public class ExpenseModel {
+public class Expense {
     private Date date;
     private Integer amount;
     private String reason;
 
-    public ExpenseModel() {
+    public Expense() {
     }
 
-    public ExpenseModel(Date date, Integer amount, String reason) {
+    public Expense(Date date, Integer amount, String reason) {
         this.date = date;
         this.amount = amount;
         this.reason = reason;

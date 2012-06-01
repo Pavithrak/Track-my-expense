@@ -1,15 +1,10 @@
-package com.example;
+package com.example.view;
 
 import android.app.ListActivity;
 import android.database.Cursor;
 import android.os.Bundle;
-import android.view.View;
-import android.widget.AdapterView;
 import android.widget.SimpleCursorAdapter;
-import android.widget.TextView;
-
-import java.util.HashMap;
-import java.util.Map;
+import com.example.controller.ExpenseController;
 
 public class ViewExpensePerMonth extends ListActivity {
     private ExpenseController controller;

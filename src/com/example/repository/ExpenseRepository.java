@@ -1,8 +1,10 @@
-package com.example;
+package com.example.repository;
 
 import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
+import com.example.DbHelper;
+import com.example.model.Expense;
 
 public class ExpenseRepository {
     private DbHelper dbHelper;
@@ -11,7 +13,7 @@ public class ExpenseRepository {
         this.dbHelper = DbHelper.getInstance(context);
     }
 
-    public void save(ExpenseModel expense) {
+    public void save(Expense expense) {
         getWritableDatabase().execSQL("insert into expense values('" + expense.getDate() +
                 "'," + expense.getAmount() + ",'" + expense.getReason() + "')");
     }
