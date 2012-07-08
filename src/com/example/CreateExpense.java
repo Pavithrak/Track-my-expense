@@ -1,4 +1,4 @@
-package com.example.view;
+package com.example;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -11,6 +11,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import com.example.controller.ExpenseController;
+import com.example.view.R;
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;

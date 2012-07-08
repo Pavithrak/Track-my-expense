@@ -3,10 +3,10 @@ package com.example.controller;
 import android.content.Context;
 import android.content.Intent;
 import android.database.Cursor;
+import com.example.ViewExpensePerMonth;
 import com.example.model.Expense;
 import com.example.repository.ExpenseRepository;
-import com.example.view.ViewExpense;
-import com.example.view.ViewExpensePerMonth;
+import com.example.ViewExpense;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

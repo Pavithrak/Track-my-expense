@@ -1,4 +1,4 @@
-package com.example.view;
+package com.example;
 
 import android.app.ListActivity;
 import android.database.Cursor;
@@ -8,6 +8,7 @@ import android.widget.AdapterView;
 import android.widget.SimpleCursorAdapter;
 import android.widget.TextView;
 import com.example.controller.ExpenseController;
+import com.example.view.R;
 import com.google.common.collect.BiMap;
 import com.google.common.collect.HashBiMap;
 

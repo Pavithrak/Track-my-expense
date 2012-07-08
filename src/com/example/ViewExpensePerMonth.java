@@ -1,10 +1,11 @@
-package com.example.view;
+package com.example;
 
 import android.app.ListActivity;
 import android.database.Cursor;
 import android.os.Bundle;
 import android.widget.SimpleCursorAdapter;
 import com.example.controller.ExpenseController;
+import com.example.view.R;
 
 public class ViewExpensePerMonth extends ListActivity {
     private ExpenseController controller;
